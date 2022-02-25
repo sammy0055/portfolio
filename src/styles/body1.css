@@ -1,0 +1,77 @@
+.Body1 {
+  padding-top: 10%;
+  background-color: black;
+}
+
+.Body1banner {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+}
+
+.Body1banner-text {
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  text-align: center;
+  border: lightgray 1px solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px gray;
+  padding: 12px;
+}
+
+.Body1banner-text > h1 {
+  color: #00ab55;
+}
+
+.Body1banner-text > p {
+  color: rgb(174, 176, 180);
+}
+
+.Card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card {
+  width: 30%;
+}
+
+.Card > h1 {
+  color: #637381;
+}
+
+.Card > p {
+  color: rgb(174, 176, 180);
+}
+
+.Cardicon {
+  width: 50px;
+  background-color: #00ab55;
+  padding: 12px;
+  border-radius: 5px;
+  color: white;
+}
+
+.Cardicon > img {
+  width: 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .Body1banner {
+    width: 70%;
+  }
+  .Body1banner-text {
+    width: 50%;
+  }
+  .Body1banner-text > h1 {
+    font-size: 1rem;
+  }
+
+  .Body1banner-text > p {
+    font-size: 0.8rem;
+  }
+}

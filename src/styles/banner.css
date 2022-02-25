@@ -1,0 +1,161 @@
+.Banner {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(249, 250, 251);
+}
+
+.Banner-container {
+  display: flex;
+  height: 80vh;
+}
+
+.Titles {
+  width: 50%;
+  margin: 10%;
+}
+
+.Title-h1 {
+  font-family: "RobotoRegular";
+  font-size: 2.125rem;
+  color: #637381;
+}
+
+.subtitle1 {
+  font-family: Inter, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: rgb(174, 176, 180);
+  font-weight: 400;
+}
+
+.BannerIcon {
+  width: 50%;
+  margin-right: 15%;
+  transform: skewX(-30deg);
+}
+
+.Bicons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+  color: white;
+  background-color: #f4f6f8;
+  box-shadow: gray 1px 1px 1px;
+  transition: 3s ease;
+}
+
+.Techlogo-container {
+  text-align: center;
+  width: 15%;
+}
+
+/* .Techlogo-container:hover {
+  transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+} */
+
+.Techlogo {
+  width: 100%;
+  height: 20vh;
+  object-fit: contain;
+}
+
+.TwiterCard {
+  display: none;
+}
+
+/* mobile------------------------------------------- */
+.Bannermobile {
+  width: 100%;
+  height: 100vh;
+  background: black
+}
+.Mobilelogo {
+  width: 17%;
+  margin: 12px;
+}
+
+.Mobile-imageContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.Mobile-imageContainer > img {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.Mobilebio {
+  background-color: white;
+  border-radius: 5px;
+  padding: 6px;
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9)
+  );
+}
+
+.Mobilebio > h1 {
+  font-size: small;
+  color: #637381;
+}
+
+.Mobilebio > p {
+  font-size: small;
+  color: rgb(174, 176, 180);
+}
+
+/* mobile------------------------------------------- */
+
+@media screen and (max-width: 425px) {
+  .Banner-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .BannerIcon {
+    display: none;
+  }
+
+  .Titles {
+    width: 100%;
+    margin: 8%;
+  }
+
+  .Title-h1 {
+    padding-top: 3em;
+    font-size: 1.125rem;
+  }
+  .subtitle1 {
+    font-size: 0.105rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Banner-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .BannerIcon {
+    display: none;
+  }
+
+  .Titles {
+    width: 100%;
+    margin: 8%;
+  }
+
+  .Title-h1 {
+    font-size: 1.125rem;
+  }
+  .subtitle1 {
+    font-size: 0.105rem;
+  }
+}
